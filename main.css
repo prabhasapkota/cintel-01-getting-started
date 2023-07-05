@@ -15,7 +15,7 @@ Notice the index.html file is divided into a head and body sections.
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #FAFAFA;
+  background-color: #d4c7c7;
 }
 
 
@@ -24,8 +24,8 @@ body {
 header {
   padding: 10px;
   text-align: center;
-  background-color: #007BFF;
-  color: white;
+  background-color: #ced4da;
+  color: rgb(186, 182, 182);
   font-size: 2em;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   /* Add a little shadow to the header */
@@ -46,13 +46,13 @@ header {
 .sidebar {
   flex: 1;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #d8c5c5;
   transition: background-color 0.5s ease;
   /* Gradual change when the color changes */
 }
 
 .sidebar:hover {
-  background-color: #E0E0E0;
+  background-color: #e2cfcf;
   /* Slightly darker gray when hovering over the sidebar */
 }
 
@@ -71,7 +71,7 @@ header {
 /* On hovering over the class = 'main' elements, switch to slightly darker gray */
 
 .main:hover {
-  background-color: #F5F5F5;
+  background-color: #f29f9f;
 }
 
 /* Apply these styles to all html input elements of type 'text'. */
@@ -81,7 +81,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid #f4e6e6;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
@@ -90,5 +90,5 @@ input[type=text] {
 /* When we click on an input element, it gets the 'focus' - change the border color */
 
 input[type=text]:focus {
-  border: 2px solid #007BFF;
+  border: 2px solid #e6eaee;
 }
